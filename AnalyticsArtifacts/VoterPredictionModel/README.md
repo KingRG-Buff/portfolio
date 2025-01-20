@@ -1,6 +1,6 @@
 # 📊 Predictive Legislative Outcome Model
 
-Welcome to **Predictive Legislative Outcome Model**, a data mining project that uses the CRISP-DM framework to predict the outcome of congressional votes on an education-spending bill. This project leverages historical voting data and classification models to provide stakeholders with actionable insights into legislative outcomes.
+Welcome to **Predictive Legislative Outcome Model**, a data mining project that uses the CRISP-DM framework to predict the outcome of congressional votes on an education-spending bill. This project leverages historical voting data and classification models to provide stakeholders with actionable insights into legislative outcomes. View the model presentation file for details on the project. 
 
 ---
 
