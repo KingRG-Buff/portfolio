@@ -13,10 +13,10 @@ Welcome to my portfolio! This repository is a curated collection of my technical
   Comprehensive database design, implementation, and query optimization using SQL and advanced data modeling tools.  
 
 - **📦 C# Projects**  
-  Object-oriented programming projects showcasing console applications, predictive models, and custom utilities.  
+  Object-oriented programming projects showcasing console applications and custom utilities.  
 
-- **📊 IT/IS Artifacts**  
-  System diagrams, design documents, and technical reports illustrating analytical and development methodologies.
+- **📊 Analytics and IT/IS Artifacts**  
+  Predictive models, Dashboards, system diagrams, and design documents illustrating analytical and development methodologies.
 
 ---
 
