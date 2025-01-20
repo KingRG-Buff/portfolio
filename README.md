@@ -1,20 +1,65 @@
 # portfolio
-# Raul G. Garcia III - Technical Portfolio Repository
+# 🖥️ **Raul G. Garcia III - Technical Portfolio Repository**
 
-Welcome to my technical portfolio! This repository showcases a curated selection of my projects and IS artifacts, demonstrating my technical expertise, problem-solving skills, and ability to deliver impactful solutions. Each project includes a detailed README with descriptions of the work, key features, and the technologies utilized.
+Welcome to my portfolio! This repository is a curated collection of my technical projects and IS artifacts, demonstrating my expertise in data analytics, web development, and system integration. Each project is accompanied by a detailed README file outlining the scope, challenges, and technologies used.
 
-## Repository Structure:
-- **Web Projects**: Contains web development artifacts including Razor Pages, ASP.NET applications, and dynamic website code.  
-- **Database Projects**: Showcases database design, implementation, and query optimization, including work with SQL and data modeling tools.  
-- **C# Projects**: Highlights object-oriented programming skills with examples such as predictive models, custom utilities, and API integrations.  
-- **IT/IS Artifacts**: Features design diagrams, technical reports, and documents showcasing analytical and systems development methodologies.  
+---
 
-## Sample Projects:
-- **Flight Delay Reporting Dashboard (Power BI)**: Developed a comprehensive reporting dashboard in Power BI to monitor and predict flight delays. Leveraged Azure ML for model training and integrated visualizations to identify root causes and support operational improvements.  
-- **CRM Advise Implementation (WTAMU)**: Contributed to the successful implementation of CRM Advise software for WTAMU, including user story compilation, software integration, and stakeholder communication.  
-- **Predictive Model for U.S. House Bill Outcomes**: Designed and developed a predictive model to assess the likelihood of bill passage in the U.S. House of Representatives using historical voting data, machine learning, and CRISP-DM methodology.  
+## 🗂️ **Repository Structure**
+- **🌐 Web Projects**  
+  Dynamic web development artifacts, including Razor Pages, ASP.NET applications, and responsive website designs.  
 
-## About:
-This portfolio is designed to illustrate my ability to build, analyze, and improve technical solutions. It includes code samples, design artifacts, and project outputs such as screenshots or reports where appropriate. It serves as a practical demonstration of my skills in C#, ASP.NET, web development, database management, and data analytics.
+- **💾 Database Projects**  
+  Comprehensive database design, implementation, and query optimization using SQL and advanced data modeling tools.  
 
-Feel free to explore each project folder and its README files for additional details on implementation, challenges tackled, and outcomes achieved.
+- **📦 C# Projects**  
+  Object-oriented programming projects showcasing console applications, predictive models, and custom utilities.  
+
+- **📊 IT/IS Artifacts**  
+  System diagrams, design documents, and technical reports illustrating analytical and development methodologies.
+
+---
+
+## 🌟 **Highlighted Projects**
+### **✈️ Flight Delay Reporting Dashboard (Power BI)**  
+- **Description:** Developed a dynamic dashboard to monitor and predict flight delays.  
+- **Technologies:** Power BI, Azure ML, Data Visualization.  
+- **Key Features:** Integrated predictive models and visualizations to identify root causes and suggest operational improvements.
+
+---
+
+### **📚 CRM Advise Implementation (WTAMU)**  
+- **Description:** Supported CRM Advise software implementation at WTAMU.  
+- **Technologies:** CRM Advise, Project Management.  
+- **Key Features:** Compiled user stories, integrated software, and maintained communication with stakeholders.
+
+---
+
+### **🏛️ Predictive Model for U.S. House Bill Outcomes**  
+- **Description:** Designed a machine learning model to predict bill outcomes based on historical voting data.  
+- **Technologies:** Python, Machine Learning, CRISP-DM Framework.  
+- **Key Features:** Leveraged historical datasets to generate actionable predictions for legislative outcomes.
+
+---
+
+## 🛠️ **About This Repository**
+This portfolio is a reflection of my dedication to building, analyzing, and improving technical solutions. Each project showcases my ability to solve complex problems, collaborate with cross-functional teams, and deliver impactful results.
+
+Explore the repository to view individual project folders, each containing:
+- **📄 README Files:** Detailed project overviews with goals, technologies, and key outcomes.  
+- **📸 Visuals:** Screenshots and PDFs showcasing project outputs.  
+- **💻 Source Code:** Clean, well-documented code demonstrating best practices.
+
+---
+
+## 📬 **Contact Information**
+I'm always open to discussing opportunities or sharing more about my work! Feel free to connect:
+
+**Raul G. Garcia III**  
+📍 Canyon, TX  
+📧 [rgarcia.pm@icloud.com](mailto:rgarcia.pm@icloud.com)  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/rg-garcia)  
+
+---
+
+Thank you for exploring my portfolio. I look forward to connecting and demonstrating how I can contribute to your team!
