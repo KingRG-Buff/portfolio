@@ -75,6 +75,7 @@ Spock
 --> Computer shoots: Rock
 You Win!	
 --> Play again? Input Y to continue, or N to exit.
+```
 
 ---
 
@@ -95,3 +96,4 @@ You Win!
 For questions or feedback, feel free to reach out:  
 📧 [rgarcia.pm@icloud.com](mailto:rgarcia.pm@icloud.com)  
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/rg-garcia)
+
