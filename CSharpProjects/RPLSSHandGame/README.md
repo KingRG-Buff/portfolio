@@ -75,3 +75,23 @@ Spock
 --> Computer shoots: Rock
 You Win!	
 --> Play again? Input Y to continue, or N to exit.
+
+---
+
+## 💻 **Technologies Used**
+- **C#**: Core language for implementation.
+- **.NET Console Application**: For interactive gameplay.
+
+---
+
+## ✨ **Future Enhancements**
+- Add a graphical user interface (GUI) for improved user experience.
+- Allow multiplayer mode for local or online play.
+- Implement additional difficulty levels for the computer player.
+
+---
+
+## 📧 **Contact**
+For questions or feedback, feel free to reach out:  
+📧 [rgarcia.pm@icloud.com](mailto:rgarcia.pm@icloud.com)  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/rg-garcia)
