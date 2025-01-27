@@ -1,6 +1,6 @@
 # 💊 Pharmaceutical Clinical Trial Management Database
 
-Welcome to the **Pharmaceutical Clinical Trial Management Database** project, a database solution designed to streamline clinical trial operations for a mock pharmaceutical company. This project ensures data integrity, supports regulatory compliance, and enables efficient management of clinical trials involving patients, medications, and hospitals.
+Welcome to the **Pharmaceutical Clinical Trial Management Database** project, a database solution designed as prood of concept to streamline clinical trial operations for a mock pharmaceutical company. This project ensures data integrity, supports regulatory compliance, and enables efficient management of clinical trials involving patients, medications, and hospitals.
 
 ---
 
