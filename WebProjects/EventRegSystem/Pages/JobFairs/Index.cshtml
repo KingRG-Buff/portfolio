@@ -1,0 +1,118 @@
+@page
+@model _3312_Final_Project.Pages.JobFairs.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Career Development Events</h1>
+
+<p>
+    <a asp-page="Create">Create New Event</a>
+</p>
+
+<div class="row">
+    <form class="d-flex" role="search" asp-page="./Index" method="get">
+        <div class="col-6">
+            <div class="input-group">
+                <span class="input-group-text"><i class="bi bi-search"></i></span>
+                <input class="form-control me-3" type="search" name="CurrentSearch" value="@Model.CurrentSearch" placeholder="Search Events" aria-label="Search">
+                <button class="btn btn-outline-primary" type="submit">Search</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+<p>Tip: Sort by Event Name or Date</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @{
+                    //Alternate sort order for EventName
+                    var firstSort = "first_asc";
+                    if (Model.CurrentSort == "first_asc")
+                    {
+                        firstSort = "first_desc";
+                    }
+                }
+                <a asp-page="./Index" asp-route-CurrentSort="@firstSort" asp-route-PageNum="@Model.PageNum">@Html.DisplayNameFor(model => model.CareerEvent[0].EventName)</a>
+            </th>
+            <th>
+                @{
+                    // Alternate sort order for EventDate
+                    var dateSort = "date_asc";
+                    if (Model.CurrentSort == "date_asc")
+                    {
+                        dateSort = "date_desc";
+                    }
+                }
+                <a asp-page="./Index" asp-route-CurrentSort="@dateSort" asp-route-PageNum="@Model.PageNum">@Html.DisplayNameFor(model => model.CareerEvent[0].EventDate)</a>
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CareerEvent[0].EventLocation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CareerEvent[0].EventDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Student[0].StudentRegistrations)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.CareerEvent) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventLocation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EventDescription)
+            </td>
+            <td>
+                @foreach(var student in item.StudentRegistrations!)
+                {
+                    @student.Student.LastName<b>,</b> @student.Student.FirstName  <br />
+                }
+                @if (item.StudentRegistrations.Count ==0)
+                {
+                    @:None Registered
+                }
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.CareerEventID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.CareerEventID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.CareerEventID">Delete</a>
+            </td>
+        </tr>
+}
+</table>
+
+<hr />
+@{
+    // If we are on page 1, prevDisabled will be set to the "disabled" class
+    // otherwise, it will be empty. So our previous button will be enabled or disabled based on this logic
+    var prevDisabled = "";
+    var nextDisabled = "";
+    if (Model.PageNum <= 1)
+    {
+        prevDisabled = "disabled";
+    }
+    if (Model.PageNum >= Model.TotalPages)
+    {
+        nextDisabled = "disabled";
+    }
+}
+<nav aria-label="Page navigation example">
+    <ul class="pagination">
+        <li class="page-item @prevDisabled"><a class="page-link" asp-page="./Index" asp-route-CurrentSort="@Model.CurrentSort" asp-route-PageNum="@(Model.PageNum - 1)">Previous</a></li>
+        <li class="page-item @nextDisabled"><a class="page-link" asp-page="./Index" asp-route-CurrentSort="@Model.CurrentSort" asp-route-PageNum="@(Model.PageNum + 1)">Next</a></li>
+    </ul>
+</nav>
