@@ -28,13 +28,6 @@ Welcome to my portfolio! This repository is a curated collection of my technical
 
 ---
 
-### **📚 CRM Advise Implementation (WTAMU)**  
-- **Description:** Supported CRM Advise software implementation at WTAMU.  
-- **Technologies:** CRM Advise, Project Management.  
-- **Key Features:** Compiled user stories, data mapping, user acceptance testing, and maintained communication with stakeholders.
-
----
-
 ### **🏛️ Predictive Model for U.S. House Bill Outcomes**  
 - **Description:** Designed a machine learning model to predict bill outcomes based on historical voting data.  
 - **Technologies:** AI Studio - RapidMiner, Machine Learning, CRISP-DM Framework.  
